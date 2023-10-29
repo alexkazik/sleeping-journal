@@ -1,0 +1,104 @@
+Key,English
+# universal
+Back,Back
+Close,Close
+Location,Location: {location}
+LocationWithIcon,Location {location} {icon}:
+Note,Note
+NoteModalHead,Note about: {name}
+NotePlaceholder,Write a note here
+NoteQuest,Note for this quest:
+NoteWithIcon,{icon} {note}
+Page,Page {page}
+PageShortBraced,(p. {page})
+PageShortLR,p. {l_page}/{r_page}
+QuestHeader,{name} {icon}
+QuestHeaderWithState,{name} {icon} ({state})
+QuestButtonForPrerequisite,(req. {quest})
+QuestButton,{location} {page} {encounters} {prerequisite}
+StateInGame,In Game
+StateNotFound,Not Found
+StateRemoved,Removed
+VisHiddenForever,Hidden forever
+VisHiddenThisCampaign,Hidden for this campaign
+VisVisible,Visible
+# nav
+NavInfo,Info
+NavQuests,Quests
+NavTodo,Todo
+NavMap,Map
+NavEdit,Edit
+NavSettings,Settings
+# todo
+TodoHeaderQuest,Quest
+TodoHeaderHints,Hints
+TodoNoHintsYet,no hints yet
+TodoDoHideThisCampaign,Hide the option to {icon} from this quest and location for this campaign
+TodoDoHideForever,Hide the option to {icon} from this quest and location forever
+TodoDoHideQuestThisCampaign,Hide this quest for this campaign
+TodoDoHideQuestForever,Hide this quest forever
+TodoQuestsAndKeywords,{quest}+{keyword}
+TodoTypInGame,In Game
+TodoTypGainWithComplete,{gain} w/ {complete}
+TodoTypGainWoComplete,{gain} w/o {complete}
+# map/location
+MaLoLocationNote,Note for this location:
+MaLoQuestsHeader,Quests:
+MaLoNewQuest,New Quest
+MaLoHeaderQuest,Quest
+MaLoHeaderHints,Hints
+# map/new_quest
+MaNqGain,We gained a new quest
+MaNqComplete,We completed a quest
+MaNqLose,We lost a quest
+MaNqWhen,We were asked to HAVE a keyword
+MaNqUnless,We were asked to NOT have a keyword
+MaNqPrerequisite,Prerequisite:
+MaNqNoPrerequisite,-
+MaNqSave,Save
+# action (common todo+map)
+ActiGainQuest,We gained this quest here
+ActiGainQuestFound,Cannot be gained: already in play
+ActiGainQuestNoPre,Cannot be gained: prerequisite not fulfilled
+ActiCompleteQuest,We completed this quest here
+ActiCompleteQuestNo,Cannot be completed: is not in play
+ActiLoseQuest,We lost this quest here
+ActiLoseQuestNo,Cannot be lost: is not in play
+ActiQuestHeader,Quest: {name} ({state})
+ActiHiddenHint,(The visibility only affects the todo list)
+# edit
+EditHint,"You should only use this page to fix errors, usually just use Todo and Map."
+# edit/quest
+EdQuHint,The changes are only saved when the save button is used.
+EdQuRemove,REMOVE!
+EdQuPrerequisite,Prerequisite: {name}
+EdQuQuestVisHeader,Quest:
+EdQuSave,Save
+# settings
+SettLightMode,Light Mode
+SettDarkMode,Dark Mode
+SettData,Data
+SettDataLoad,Load
+SettDataSave,Save
+SettDataNewCampaign,New Campaign
+SettDataClear,Clear
+SettModelNewCampaignHead,New Campaign?
+SettModelNewCampaignBody,This will reset all quests to not found and resets the temporarily hidden data.
+SettModelClearHead,Clear?
+SettModelClearBody,This will remove all data you entered.
+SettTranslationIncomplete,* = Translation is incomplete
+SettTranslationHelp,Help translating
+# info
+InfoDataHead,Data
+InfoDataBody,The data is stored only in the browser (not the server!). Please use the Save/Load (in Settings) to make sure that your data is not lost. None of the data you enter is sent to any server.
+InfoIconHead,Icons
+InfoIconActive,{icon} - Active quest
+InfoIconKeyword,{icon} - Keyword
+InfoIconGain,{icon} - Gain a quest
+InfoIconWhen,{icon} - Requires a quest
+InfoIconComplete,{icon} - Complete a quest
+InfoIconLose,{icon} - Lose a quest
+InfoIconUnless,{icon} - Requires to not have a quest
+InfoIconNote,{icon} - A note you wrote
+InfoLinkHead,Links
+InfoLinkRules,Rules reference
