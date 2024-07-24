@@ -1,0 +1,212 @@
+# key
+en English
+
+// universal
+# back
+en Back
+# close
+en Close
+# location
+en Location: %{location}
+# location_with_icon
+en Location %{location} *{icon}:
+# note
+en Note
+# note_modal_head
+en Note about: %{name}
+# note_placeholder
+en Write a note here
+# note_quest
+en Note for this quest:
+# note_with_icon
+en *{icon} %{note}
+# page
+en Page %{page}
+# page_short_braced
+en (p. %{page})
+# page_short
+en p. %{page}
+# page_short_lr
+en p. %{l_page}/%{r_page}
+# page_star_help
+en This location is for events without a location (or if you forgot where it was).
+# quest_header
+en %{name} *{icon}
+# quest_header_with_state
+en %{name} *{icon} (%{state})
+# quest_button_for_prerequisite
+en (req. %{quest})
+# quest_button
+en %{location} *{page} *{encounters} %{prerequisite}
+# state_in_game
+en In Game
+# state_not_found
+en Not Found
+# state_removed
+en Removed
+# vis_hidden_forever
+en Hidden forever
+# vis_hidden_this_campaign
+en Hidden for this campaign
+# vis_visible
+en Visible
+
+// nav
+# nav_info
+en Info
+# nav_quests
+en Quests
+# nav_todo
+en Todo
+# nav_map
+en Map
+# nav_edit
+en Edit
+# nav_settings
+en Settings
+
+// todo
+# todo_header_quest
+en Quest
+# todo_header_hints
+en Hints
+# todo_no_hints_yet
+en no hints yet
+# todo_do_hide_this_campaign
+en Hide the option to *{icon} from this quest and location for this campaign
+# todo_do_hide_forever
+en Hide the option to *{icon} from this quest and location forever
+# todo_do_hide_quest_this_campaign
+en Hide this quest for this campaign
+# todo_do_hide_quest_forever
+en Hide this quest forever
+# todo_quests_and_keywords
+en *{quest}+*{keyword}
+# todo_typ_in_game
+en In Game
+# todo_typ_gain_with_complete
+en *{gain} w/ *{complete}
+# todo_typ_gain_wo_complete
+en *{gain} w/o *{complete}
+
+// map/location
+# ma_lo_location_note
+en Note for this location:
+# ma_lo_quests_header
+en Quests:
+# ma_lo_new_quest
+en New Quest
+# ma_lo_header_quest
+en Quest
+# ma_lo_header_hints
+en Hints
+
+// map/new_quest
+# ma_nq_gain
+en We gained a new quest
+# ma_nq_complete
+en We completed a quest
+# ma_nq_lose
+en We lost a quest
+# ma_nq_when
+en We were asked to HAVE a keyword
+# ma_nq_unless
+en We were asked to NOT have a keyword
+# ma_nq_prerequisite
+en Prerequisite:
+# ma_nq_no_prerequisite
+en -
+# ma_nq_save
+en Save
+
+// action (common todo+map)
+# acti_gain_quest
+en We gained this quest here
+# acti_gain_quest_found
+en Cannot be gained: already in play
+# acti_gain_quest_no_pre
+en Cannot be gained: prerequisite not fulfilled
+# acti_complete_quest
+en We completed this quest here
+# acti_complete_quest_no
+en Cannot be completed: is not in play
+# acti_lose_quest
+en We lost this quest here
+# acti_lose_quest_no
+en Cannot be lost: is not in play
+# acti_quest_header
+en Quest: %{name} (%{state})
+# acti_hidden_hint
+en (The visibility only affects the todo list)
+
+// edit
+# edit_hint
+en "You should only use this page to fix errors, usually just use Quests."
+
+// edit/quest
+# ed_qu_hint
+en The changes are only saved when the save button is used.
+# ed_qu_remove
+en REMOVE!
+# ed_qu_prerequisite
+en Prerequisite: %{name}
+# ed_qu_quest_vis_header
+en Quest:
+# ed_qu_save
+en Save
+
+// settings
+# sett_light_mode
+en Light Mode
+# sett_dark_mode
+en Dark Mode
+# sett_data
+en Data
+# sett_data_load
+en Load
+# sett_data_save
+en Save
+# sett_data_new_campaign
+en New Campaign
+# sett_data_clear
+en Clear
+# sett_model_new_campaign_head
+en New Campaign?
+# sett_model_new_campaign_body
+en This will reset all quests to not found and resets the temporarily hidden data.
+# sett_model_clear_head
+en Clear?
+# sett_model_clear_body
+en This will remove all data you entered.
+# sett_translation_incomplete
+en * = Translation is incomplete
+# sett_translation_help
+en Help translating
+
+// info
+# info_data_head
+en Data
+# info_data_body
+en The data is stored only in the browser (not the server!). Please use the Save/Load (in Settings) to make sure that your data is not lost. None of the data you enter is sent to any server.
+# info_icon_head
+en Icons
+# info_icon_active
+en *{icon} - Active quest
+# info_icon_keyword
+en *{icon} - Keyword
+# info_icon_gain
+en *{icon} - Gain a quest
+# info_icon_when
+en *{icon} - Requires a quest
+# info_icon_complete
+en *{icon} - Complete a quest
+# info_icon_lose
+en *{icon} - Lose a quest
+# info_icon_unless
+en *{icon} - Requires to not have a quest
+# info_icon_note
+en *{icon} - A note you wrote
+# info_link_head
+en Links
+# info_link_rules
+en Rules reference

@@ -1,0 +1,13 @@
+nav.navbar {
+  .navbar-nav {
+    .nav-pills {
+      .nav-link {
+        cursor: pointer;
+
+        &.active {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
