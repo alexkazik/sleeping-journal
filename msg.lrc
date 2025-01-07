@@ -1,5 +1,6 @@
 # key
 en English
+de Deutsch
 
 // universal
 # back
@@ -142,71 +143,103 @@ en (The visibility only affects the todo list)
 // edit
 # edit_hint
 en "You should only use this page to fix errors, usually just use Quests."
+de "Diese Seite sollte nur zur Fehlerbehebung genutzt werden, normalerweise nutze einfach Quests."
 
 // edit/quest
 # ed_qu_hint
 en The changes are only saved when the save button is used.
+de Die Änderungen werden nur beim nutzen des Speichern Buttons gespeichert.
 # ed_qu_remove
 en REMOVE!
+de ENTFERNEN!
 # ed_qu_prerequisite
 en Prerequisite: %{name}
+de Vorraussetzung: %{name}
 # ed_qu_quest_vis_header
 en Quest:
+de Quest:
 # ed_qu_save
 en Save
+de Speichern
 
 // settings
 # sett_light_mode
 en Light Mode
+de heller Modue
 # sett_dark_mode
 en Dark Mode
+de dunkler Modus
 # sett_data
 en Data
+de Daten
 # sett_data_load
 en Load
+de Laden
 # sett_data_save
 en Save
+de Speichern
 # sett_data_new_campaign
 en New Campaign
+de Neue Kampagne
 # sett_data_clear
 en Clear
+de Löschen
 # sett_model_new_campaign_head
 en New Campaign?
+de Neue Kampagne?
 # sett_model_new_campaign_body
 en This will reset all quests to not found and resets the temporarily hidden data.
+de Hiermit werden alle Quests und temporären versteckten Daten zurückgesetzt.
 # sett_model_clear_head
 en Clear?
+de Löschen?
 # sett_model_clear_body
 en This will remove all data you entered.
+de Alle eingegeben Daten werden entfernt
 # sett_translation_incomplete
 en * = Translation is incomplete
+de * = Übersetzung unvollständig
 # sett_translation_help
 en Help translating
+de Übersetzen helfen
 
 // info
 # info_data_head
 en Data
+de Daten
 # info_data_body
 en The data is stored only in the browser (not the server!). Please use the Save/Load (in Settings) to make sure that your data is not lost. None of the data you enter is sent to any server.
+de Daten werden nur im Browser gespeichert (nicht auf einem Server!). Bitte nutze Speichern/Laden (Einstellungen) um sicher zu gehen, das die Daten nicht verloren gehen. Keine der eingegebenen Daten wird an einen Server gesendet.
 # info_icon_head
 en Icons
+de Icons
 # info_icon_active
 en *{icon} - Active quest
+de *{icon} - Aktive Quest
 # info_icon_keyword
 en *{icon} - Keyword
+de *{icon} - Schlüsselwort
 # info_icon_gain
 en *{icon} - Gain a quest
+de *{icon} - Quest erhalten
 # info_icon_when
 en *{icon} - Requires a quest
+de *{icon} - Quest benötigt
 # info_icon_complete
 en *{icon} - Complete a quest
+de *{icon} - Quest beendet
 # info_icon_lose
 en *{icon} - Lose a quest
+de *{icon} - Quest verloren
 # info_icon_unless
 en *{icon} - Requires to not have a quest
+de *{icon} - Vorrausetzung: keine Quest
 # info_icon_note
 en *{icon} - A note you wrote
+de *{icon} - Eine deiner Notizen
 # info_link_head
 en Links
+de Links
 # info_link_rules
 en Rules reference
+de Regel Referenz
