@@ -1,212 +1,308 @@
 # key
 en English
+de Deutsch
 
 // universal
 # back
 en Back
+de Zurück
 # close
 en Close
+de Schließen
 # location
 en Location: %{location}
+de Standort: %{location}
 # location_with_icon
 en Location %{location} *{icon}:
+de Standort %{location} *{icon}:
 # note
 en Note
+de Notiz
 # note_modal_head
 en Note about: %{name}
+de Notiz über: %{name}
 # note_placeholder
 en Write a note here
+de Hier eine Notiz erstellen
 # note_quest
 en Note for this quest:
+de Notiz für diese Quest:
 # note_with_icon
 en *{icon} %{note}
+de *{icon} %{note}
 # page
 en Page %{page}
+de Seite %{page}
 # page_short_braced
 en (p. %{page})
+de (p. %{page})
 # page_short
 en p. %{page}
+de p. %{page}
 # page_short_lr
 en p. %{l_page}/%{r_page}
+de p. %{l_page}/%{r_page}
 # page_star_help
 en This location is for events without a location (or if you forgot where it was).
+de Dieser Standort ist für Events ohne einen Standort (oder falls du vergessen hast wo es war).
 # quest_header
 en %{name} *{icon}
+de %{name} *{icon}
 # quest_header_with_state
 en %{name} *{icon} (%{state})
+de %{name} *{icon} (%{state})
 # quest_button_for_prerequisite
 en (req. %{quest})
+de (req. %{quest})
 # quest_button
 en %{location} *{page} *{encounters} %{prerequisite}
+de %{location} *{page} *{encounters} %{prerequisite}
 # state_in_game
 en In Game
+de Im Spiel
 # state_not_found
 en Not Found
+de Nicht gefunden
 # state_removed
 en Removed
+de Entfernt
 # vis_hidden_forever
 en Hidden forever
+de Dauerhaft versteckt
 # vis_hidden_this_campaign
 en Hidden for this campaign
+de Für diese Kampagne versteckt
 # vis_visible
 en Visible
+de Sichtbar
 
 // nav
 # nav_info
 en Info
+de Info
 # nav_quests
 en Quests
+de Quests
 # nav_todo
 en Todo
+de Zu erledigen
 # nav_map
 en Map
+de Karte
 # nav_edit
 en Edit
+de Bearbeiten
 # nav_settings
 en Settings
+de Einstellungen
 
 // todo
 # todo_header_quest
 en Quest
+de Quest
 # todo_header_hints
 en Hints
+de Hinweise
 # todo_no_hints_yet
 en no hints yet
+de bisher keine Hinweise
 # todo_do_hide_this_campaign
 en Hide the option to *{icon} from this quest and location for this campaign
+de Verstecke den Standort und die Option für *{icon} von dieser Quest für diese Kampagne
 # todo_do_hide_forever
 en Hide the option to *{icon} from this quest and location forever
+de Verstecke den Standort und die Option für *{icon} von dieser Quest dauerhaft
 # todo_do_hide_quest_this_campaign
 en Hide this quest for this campaign
+de Verstecke diese Quest für diese Kampagne
 # todo_do_hide_quest_forever
 en Hide this quest forever
+de Verstecke diese Quest dauerhaft
 # todo_quests_and_keywords
 en *{quest}+*{keyword}
+de *{quest}+*{keyword}
 # todo_typ_in_game
 en In Game
+de Im Spiel
 # todo_typ_gain_with_complete
 en *{gain} w/ *{complete}
+de *{gain} mit *{complete}
 # todo_typ_gain_wo_complete
 en *{gain} w/o *{complete}
+de *{gain} ohne *{complete}
 
 // map/location
 # ma_lo_location_note
 en Note for this location:
+de Notiz für diesen Standort:
 # ma_lo_quests_header
 en Quests:
+de Quests:
 # ma_lo_new_quest
 en New Quest
+de Neue Quest
 # ma_lo_header_quest
 en Quest
+de Quest
 # ma_lo_header_hints
 en Hints
+de Hinweise
 
 // map/new_quest
 # ma_nq_gain
 en We gained a new quest
+de Wir haben eine neue Quest erhalten
 # ma_nq_complete
 en We completed a quest
+de Wir haben eine Quest abgeschlossen
 # ma_nq_lose
 en We lost a quest
+de Eine Quest ist gescheitert
 # ma_nq_when
 en We were asked to HAVE a keyword
+de Wir wurden gefragt ob wir EIN Schlüsselwort haben
 # ma_nq_unless
 en We were asked to NOT have a keyword
+de Wir wurden gefragt ob wir KEIN Schlüsselwort haben
 # ma_nq_prerequisite
 en Prerequisite:
+de Vorraussetzungen
 # ma_nq_no_prerequisite
 en -
+de -
 # ma_nq_save
 en Save
+de Speichern
 
 // action (common todo+map)
 # acti_gain_quest
 en We gained this quest here
+de Hier haben wir die Quest erhalten
 # acti_gain_quest_found
 en Cannot be gained: already in play
+de Quest bereits erhalten und im Spiel
 # acti_gain_quest_no_pre
 en Cannot be gained: prerequisite not fulfilled
+de Vorraussetzungen für diese Quest sind nicht erfüllt
 # acti_complete_quest
 en We completed this quest here
+de Hier haben wir die Quest gelöst
 # acti_complete_quest_no
 en Cannot be completed: is not in play
+de Kann nicht abgeschlossen werden da nicht im Spiel
 # acti_lose_quest
 en We lost this quest here
+de Hier haben wir die Quest verloren
 # acti_lose_quest_no
 en Cannot be lost: is not in play
+de Kann nicht verloren werden da nicht im Spiel
 # acti_quest_header
 en Quest: %{name} (%{state})
+de Quest: %{name} (%{state})
 # acti_hidden_hint
 en (The visibility only affects the todo list)
+de (Die Sichtbarkeit wirkt sich nur auf die "Zu Erledigen"-Liste aus)
 
 // edit
 # edit_hint
 en "You should only use this page to fix errors, usually just use Quests."
+de "Diese Seite sollte nur zur Fehlerbehebung genutzt werden, normalerweise nutze einfach Quests."
 
 // edit/quest
 # ed_qu_hint
 en The changes are only saved when the save button is used.
+de Die Änderungen werden nur beim nutzen des Speichern Buttons gespeichert.
 # ed_qu_remove
 en REMOVE!
+de ENTFERNEN!
 # ed_qu_prerequisite
 en Prerequisite: %{name}
+de Vorraussetzung: %{name}
 # ed_qu_quest_vis_header
 en Quest:
+de Quest:
 # ed_qu_save
 en Save
+de Speichern
 
 // settings
 # sett_light_mode
 en Light Mode
+de heller Modue
 # sett_dark_mode
 en Dark Mode
+de dunkler Modus
 # sett_data
 en Data
+de Daten
 # sett_data_load
 en Load
+de Laden
 # sett_data_save
 en Save
+de Speichern
 # sett_data_new_campaign
 en New Campaign
+de Neue Kampagne
 # sett_data_clear
 en Clear
+de Löschen
 # sett_model_new_campaign_head
 en New Campaign?
+de Neue Kampagne?
 # sett_model_new_campaign_body
 en This will reset all quests to not found and resets the temporarily hidden data.
+de Hiermit werden alle Quests und temporären versteckten Daten zurückgesetzt.
 # sett_model_clear_head
 en Clear?
+de Löschen?
 # sett_model_clear_body
 en This will remove all data you entered.
+de Alle eingegeben Daten werden entfernt
 # sett_translation_incomplete
 en * = Translation is incomplete
+de * = Übersetzung unvollständig
 # sett_translation_help
 en Help translating
+de Übersetzen helfen
 
 // info
 # info_data_head
 en Data
+de Daten
 # info_data_body
 en The data is stored only in the browser (not the server!). Please use the Save/Load (in Settings) to make sure that your data is not lost. None of the data you enter is sent to any server.
+de Daten werden nur im Browser gespeichert (nicht auf einem Server!). Bitte nutze Speichern/Laden (Einstellungen) um sicher zu gehen, das die Daten nicht verloren gehen. Keine der eingegebenen Daten wird an einen Server gesendet.
 # info_icon_head
 en Icons
+de Icons
 # info_icon_active
 en *{icon} - Active quest
+de *{icon} - Aktive Quest
 # info_icon_keyword
 en *{icon} - Keyword
+de *{icon} - Schlüsselwort
 # info_icon_gain
 en *{icon} - Gain a quest
+de *{icon} - Quest erhalten
 # info_icon_when
 en *{icon} - Requires a quest
+de *{icon} - Quest benötigt
 # info_icon_complete
 en *{icon} - Complete a quest
+de *{icon} - Quest beendet
 # info_icon_lose
 en *{icon} - Lose a quest
+de *{icon} - Quest verloren
 # info_icon_unless
 en *{icon} - Requires to not have a quest
+de *{icon} - Vorrausetzung: keine Quest
 # info_icon_note
 en *{icon} - A note you wrote
+de *{icon} - Eine deiner Notizen
 # info_link_head
 en Links
+de Links
 # info_link_rules
 en Rules reference
+de Regel Referenz
