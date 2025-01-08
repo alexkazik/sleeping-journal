@@ -20,4 +20,8 @@ pub(crate) enum GameLanguage {
     #[serde(rename = "en")]
     #[typed_i18n(name = "en")]
     English,
+    #[enum_tools(rename = "Deutsch")]
+    #[serde(rename = "de")]
+    #[typed_i18n(name = "de")]
+    Deutsch,
 }
