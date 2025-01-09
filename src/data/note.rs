@@ -1,7 +1,7 @@
 use std::fmt::{Display, Formatter};
 use std::ops::Deref;
-use yew::html::IntoPropValue;
 use yew::AttrValue;
+use yew::html::IntoPropValue;
 use yew_bootstrap::icons::BI;
 
 #[cfg_attr(feature = "debug", derive(Debug))]

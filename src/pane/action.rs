@@ -8,7 +8,7 @@ use crate::global::data::Data;
 use crate::html::{callback_input_value, text};
 use crate::pane::edit_quest::PaneEditQuest;
 use crate::ser::settings::EmptySer;
-use yew::{html, Context, Html};
+use yew::{Context, Html, html};
 use yew_bootstrap::component::Button;
 use yew_bootstrap::util::Color;
 

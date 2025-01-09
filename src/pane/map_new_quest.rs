@@ -9,7 +9,7 @@ use crate::html::{callback_input_value, text};
 use crate::ser::settings::EmptySer;
 use std::str::FromStr;
 use web_sys::HtmlInputElement;
-use yew::{html, Context, Html, NodeRef};
+use yew::{Context, Html, NodeRef, html};
 use yew_bootstrap::component::Button;
 use yew_bootstrap::util::Color;
 

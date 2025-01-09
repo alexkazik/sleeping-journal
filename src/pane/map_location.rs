@@ -3,10 +3,10 @@ use crate::data::sub_component::{SubComponent, UpdateResult, UpdateResults};
 use crate::game::{LocationId, QuestId};
 use crate::global::app::{App, MsgApp};
 use crate::global::data::Data;
-use crate::html::{callback_input_value, Modal};
+use crate::html::{Modal, callback_input_value};
 use crate::route::Route;
 use crate::ser::settings::EmptySer;
-use yew::{html, Context, Html};
+use yew::{Context, Html, html};
 use yew_bootstrap::component::Button;
 use yew_bootstrap::util::Color;
 

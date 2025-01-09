@@ -24,7 +24,7 @@ use gloo_utils::format::JsValueSerdeExt;
 use std::collections::{HashMap, VecDeque};
 #[cfg(feature = "debug")]
 use web_sys::wasm_bindgen::JsValue;
-use yew::{classes, html, Component, Context, Html};
+use yew::{Component, Context, Html, classes, html};
 
 #[derive(Clone)]
 pub(crate) enum MsgApp {

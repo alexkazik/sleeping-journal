@@ -7,7 +7,7 @@ use crate::global::data::Data;
 use crate::html::Modal;
 use serde::{Deserialize, Serialize};
 use serde_repr::{Deserialize_repr, Serialize_repr};
-use yew::{html, Context, Html};
+use yew::{Context, Html, html};
 
 #[allow(clippy::enum_variant_names)]
 #[derive(Clone)]

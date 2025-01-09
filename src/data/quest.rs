@@ -10,7 +10,7 @@ use crate::route::Route;
 use serde_repr::{Deserialize_repr, Serialize_repr};
 use std::collections::BTreeMap;
 use yew::virtual_dom::VList;
-use yew::{html, Context, Html};
+use yew::{Context, Html, html};
 use yew_bootstrap::component::{Button, ButtonSize};
 use yew_bootstrap::icons::BI;
 use yew_bootstrap::util::Color;

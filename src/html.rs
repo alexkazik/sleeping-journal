@@ -2,7 +2,7 @@ use crate::global::app::{App, MsgApp};
 use crate::global::data::Data;
 use web_sys::{Event, HtmlElement, HtmlInputElement};
 use yew::virtual_dom::{VNode, VText};
-use yew::{html, AttrValue, Callback, Context, Html, NodeRef, TargetCast};
+use yew::{AttrValue, Callback, Context, Html, NodeRef, TargetCast, html};
 
 #[inline]
 pub(crate) const fn text(content: &'static str) -> Html {

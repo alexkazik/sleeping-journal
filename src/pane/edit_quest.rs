@@ -10,7 +10,7 @@ use crate::ser::settings::EmptySer;
 use std::collections::BTreeSet;
 use std::mem;
 use web_sys::{Event, HtmlInputElement, MouseEvent};
-use yew::{html, AttrValue, Callback, Context, Html, NodeRef};
+use yew::{AttrValue, Callback, Context, Html, NodeRef, html};
 use yew_bootstrap::component::{Alert, Button};
 use yew_bootstrap::icons::BI;
 use yew_bootstrap::util::Color;

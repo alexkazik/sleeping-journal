@@ -1,5 +1,5 @@
-use crate::game::generated::{LOCATIONS, LOCATIONS_ROWS};
 use crate::game::GameLanguage;
+use crate::game::generated::{LOCATIONS, LOCATIONS_ROWS};
 use std::iter::Map;
 use std::ops::Range;
 

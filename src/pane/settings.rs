@@ -7,11 +7,11 @@ use crate::global::data::Data;
 use crate::html::text;
 use crate::ser::csv::MyError;
 use base64::Engine;
-use gloo_file::callbacks::FileReader;
 use gloo_file::File;
+use gloo_file::callbacks::FileReader;
 use serde::{Deserialize, Serialize};
 use web_sys::{Event, HtmlElement, HtmlInputElement, HtmlSelectElement};
-use yew::{html, AttrValue, Context, Html, NodeRef, TargetCast};
+use yew::{AttrValue, Context, Html, NodeRef, TargetCast, html};
 use yew_bootstrap::component::form::{FormControl, FormControlType, SelectOption};
 use yew_bootstrap::component::{
     Alert, Button, ButtonGroup, Modal, ModalBody, ModalFooter, ModalHeader,

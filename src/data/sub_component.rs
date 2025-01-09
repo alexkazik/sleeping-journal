@@ -1,6 +1,6 @@
 use crate::global::app::{App, MsgApp};
 use crate::global::data::Data;
-use enumflags2::{bitflags, BitFlags};
+use enumflags2::{BitFlags, bitflags};
 use serde::{Deserialize, Serialize};
 use yew::{Context, Html};
 

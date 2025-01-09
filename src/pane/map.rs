@@ -4,10 +4,10 @@ use crate::data::vis::Vis;
 use crate::game::{LocationId, MAP, MAP_DEFAULT_POSITION};
 use crate::global::app::{App, MsgApp};
 use crate::global::data::Data;
-use crate::html::{text, Modal};
+use crate::html::{Modal, text};
 use crate::route::Route;
 use serde::{Deserialize, Serialize};
-use yew::{html, Context, Html};
+use yew::{Context, Html, html};
 use yew_bootstrap::component::{Button, ButtonSize};
 use yew_bootstrap::util::Color;
 

@@ -1,6 +1,6 @@
 use crate::global::data::Data;
 use serde_repr::{Deserialize_repr, Serialize_repr};
-use yew::{classes, Classes};
+use yew::{Classes, classes};
 use yew_bootstrap::util::Color;
 
 #[cfg_attr(feature = "debug", derive(Debug))]
