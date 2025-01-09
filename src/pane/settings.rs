@@ -200,7 +200,7 @@ impl SubComponent for PaneSettings {
             data.quest_locale.language(),
             GameLanguage::iter().zip(GameLanguage::names()),
             "input-select-quest-language",
-            "Language of the game",
+            data.msg.str_sett_lang_game(),
             MsgSettings::GameLanguage,
         );
         let ml = Self::language_settings(
@@ -209,7 +209,7 @@ impl SubComponent for PaneSettings {
             data.msg,
             MsgLanguage::iter().zip(MsgLanguage::names()),
             "input-select-msg-language",
-            "Language of the website",
+            data.msg.str_sett_lang_msg(),
             MsgSettings::MsgLanguage,
         );
         html! {
