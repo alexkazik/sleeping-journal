@@ -31,4 +31,5 @@ default = []
 debug = []
 
 [[bin]]
-name = "copy-and-link"
+name = "sleeping-journal"
+path = "src/main.rs"
