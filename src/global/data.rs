@@ -56,10 +56,11 @@ impl Data {
         self.quest_locale.all_str().map(|(l, n)| (l, text(n)))
     }
 
+    #[allow(clippy::type_complexity)]
     pub(crate) fn quest_iter<'a>(
         &'a self,
     ) -> FilterMap<
-        Copied<Iter<'_, (QuestId, &'static str)>>,
+        Copied<Iter<'a, (QuestId, &'static str)>>,
         impl FnMut((QuestId, &'static str)) -> Option<(QuestId, &'a Quest, &'static str)>,
     > {
         self.quest_locale
