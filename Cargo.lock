@@ -1150,7 +1150,7 @@ dependencies = [
 
 [[package]]
 name = "sleeping-journal"
-version = "1.0.32"
+version = "1.0.33"
 dependencies = [
  "base64",
  "chrono",
