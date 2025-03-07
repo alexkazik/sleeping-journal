@@ -62,7 +62,7 @@ impl QuestLocation {
                                         Some(prerequisite) => data
                                             .quest
                                             .get(&prerequisite)
-                                            .map_or(false, |q| q.state == QuestState::Removed),
+                                            .is_some_and(|q| q.state == QuestState::Removed),
                                     }
                                 }
                                 EncounterType::When

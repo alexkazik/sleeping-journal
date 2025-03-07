@@ -222,7 +222,7 @@ pub(crate) fn note_head(s: &Note) -> String {
         s
     } else {
         cs.truncate(MAX - 2);
-        while cs.last().map_or(false, |c| !c.is_whitespace()) {
+        while cs.last().is_some_and(|c| !c.is_whitespace()) {
             cs.pop();
         }
         cs.push('…');

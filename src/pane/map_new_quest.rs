@@ -48,11 +48,11 @@ fn nqt_allow(nqt: EncounterType, data: &Data, quest_id: QuestId) -> bool {
         EncounterType::Gain => data
             .quest
             .get(&quest_id)
-            .map_or(true, |q| q.state == QuestState::NotFound),
+            .is_none_or(|q| q.state == QuestState::NotFound),
         EncounterType::Complete | EncounterType::Lose => data
             .quest
             .get(&quest_id)
-            .map_or(false, |q| q.state == QuestState::InGame),
+            .is_some_and(|q| q.state == QuestState::InGame),
         EncounterType::When | EncounterType::Unless => true,
     }
 }
