@@ -51,30 +51,33 @@ impl QuestLocation {
         if quest.vis == Vis::Visible || ignore_visibility {
             for (et, qle) in &self.0 {
                 if qle.vis == Vis::Visible || ignore_visibility {
-                    result.insert(*et, match quest.state {
-                        QuestState::NotFound => match et {
-                            EncounterType::Unless => true,
-                            EncounterType::Gain => {
-                                match qle.prerequisite {
-                                    None => true, // always ready to pick up
-                                    Some(prerequisite) => data
-                                        .quest
-                                        .get(&prerequisite)
-                                        .map_or(false, |q| q.state == QuestState::Removed),
+                    result.insert(
+                        *et,
+                        match quest.state {
+                            QuestState::NotFound => match et {
+                                EncounterType::Unless => true,
+                                EncounterType::Gain => {
+                                    match qle.prerequisite {
+                                        None => true, // always ready to pick up
+                                        Some(prerequisite) => data
+                                            .quest
+                                            .get(&prerequisite)
+                                            .map_or(false, |q| q.state == QuestState::Removed),
+                                    }
                                 }
-                            }
-                            EncounterType::When | EncounterType::Complete | EncounterType::Lose => {
-                                false
-                            }
+                                EncounterType::When
+                                | EncounterType::Complete
+                                | EncounterType::Lose => false,
+                            },
+                            QuestState::InGame => match et {
+                                EncounterType::When
+                                | EncounterType::Complete
+                                | EncounterType::Lose => true,
+                                EncounterType::Unless | EncounterType::Gain => false,
+                            },
+                            QuestState::Removed => false,
                         },
-                        QuestState::InGame => match et {
-                            EncounterType::When | EncounterType::Complete | EncounterType::Lose => {
-                                true
-                            }
-                            EncounterType::Unless | EncounterType::Gain => false,
-                        },
-                        QuestState::Removed => false,
-                    });
+                    );
                 }
             }
         }
