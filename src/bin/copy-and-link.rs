@@ -19,10 +19,27 @@ fn main() -> Result<(), std::io::Error> {
     let index = index
         .replace(
             "<!include-bootstrap-icons>",
-            r#"<link rel="stylesheet" href="bootstrap-icons-v1.11.3/bootstrap-icons.css"/>"#,
+            &format!(
+                r#"<link rel="stylesheet" href="{}{}/bootstrap-icons.css"/>"#,
+                parse_base_href(&index),
+                BIFiles::NAME
+            ),
         )
         .replace("<!version>", env!("CARGO_PKG_VERSION"));
     std::fs::write(&path, index)?;
 
     Ok(())
+}
+
+fn parse_base_href(html: &str) -> &str {
+    html.split_once("<base href=\"")
+        .and_then(|html| html.1.split_once("\" />"))
+        .map(|html| html.0)
+        .filter(|html| {
+            html.ends_with('/')
+                && !html.contains('\'')
+                && !html.contains('"')
+                && !html.contains('&')
+        })
+        .map_or("", |html| html)
 }
