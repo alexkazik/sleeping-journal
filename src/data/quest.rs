@@ -95,7 +95,7 @@ impl Quest {
                 }
 
                 let outline = !active.iter().any(|(_, v)| *v);
-                let vis = quest_location.iter().map(|(_, qle)| qle.vis).min().unwrap_or(Vis::Visible);
+                let vis = quest_location.values().map(|qle| qle.vis).min().unwrap_or(Vis::Visible);
                 let pq = quest_location.iter().filter(|(et, _)| active.get(et) != Some(&true)).find_map(|(_, qle)| qle.prerequisite).map(|pq| data.msg.str_quest_button_for_prerequisite(data.quest_locale.get(pq)));
                 let e = active.into_iter().map(|(i, a)| i.icon(a));
                 let p = location_id.page().map(|p| html! { <small> {data.msg.page_short_braced(p)} </small> });

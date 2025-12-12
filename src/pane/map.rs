@@ -144,9 +144,9 @@ impl PaneMap {
                 let location_name = text(l.name(data.quest_locale.language()));
                 let quests = itertools::Itertools::intersperse(data.quest_iter().filter_map(|(_, quest, name)| {
                     if let Some(ql) = quest.encounter.get(&l) {
-                        let vis = ql.iter().map(|(_, qle)| qle.vis).min().unwrap_or(Vis::Visible);
+                        let vis = ql.values().map(|qle| qle.vis).min().unwrap_or(Vis::Visible);
                         let vis = vis.max(quest.vis);
-                        let icons = ql.iter().map(|(et, _)| {
+                        let icons = ql.keys().map(|et| {
                             html! { <span class="ms-1">{ et.icon(false) }</span> }
                         });
 
