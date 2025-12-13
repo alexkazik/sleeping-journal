@@ -1,3 +1,819 @@
 # prologue
 en Prologue
 de Prolog
+
+# card_1
+en RAID
+de RAUBZUG
+
+# card_2
+en COTTAGE
+de HÜTTE
+
+# card_3
+en SUPPLIES
+de VORRÄTE
+
+# card_4
+en ABYSMAL
+de ABGRUNDTIEF
+
+# card_5
+en FREIGHTER
+de FRACHTER
+
+# card_6
+en FALCON
+de FALKE
+
+# card_7
+en UNLEASH
+de ENTFESSELT
+
+# card_8
+en EXPECTED
+de ERWARTET
+
+# card_9
+en COOK
+de KOCH
+
+# card_10
+en PICTURE
+de LICHTBILD
+
+# card_11
+en HUNTED
+de GEJAGT
+
+# card_12
+en HEIST
+de RAUB
+
+# card_13
+en ABANDON
+de VERLASSEN
+
+# card_14
+en FOAM
+de SCHAUM
+
+# card_15
+en CHAINS
+de KETTEN
+
+# card_16
+en SHRINE
+de SCHREIN
+
+# card_17
+en EARTHQUAKE
+de ERDBEBEN
+
+# card_18
+en PASSWORD
+de PASSWORT
+
+# card_19
+en AUCTION
+de AUKTION
+
+# card_20
+en THUNDER
+de DONNER
+
+# card_21
+en MINE
+de MINE
+
+# card_22
+en SHELL
+de MUSCHEL
+
+# card_23
+en CLEAN
+de REIN
+
+# card_24
+en SAPPHIRE
+de SAPHIR
+
+# card_25
+en LUXURY
+de LUXUS
+
+# card_26
+en SLEEP
+de SCHLAF
+
+# card_27
+en GUSTO
+de GUSTO
+
+# card_28
+en DAGGER
+de DOLCH
+
+# card_29
+en SPLINTER
+de SPLITTER
+
+# card_30
+en SIRENS
+de SIRENEN
+
+# card_31
+en UNDERWORLD
+de UNTERWELT
+
+# card_32
+en GRANDCHILDREN
+de ENKEL
+
+# card_33
+en SWIM
+de SCHWIMMEN
+
+# card_34
+en GUIDE
+de FÜHRERIN
+
+# card_35
+en ZOO
+de ZOO
+
+# card_36
+en MAIL
+de POST
+
+# card_37
+en BARNACLE
+de SEEPOCKE
+
+# card_38
+en SQUARE
+de QUADRAT
+
+# card_39
+en TABLET
+de TAFEL
+
+# card_40
+en GRANDFATHER
+de GROSSVATER
+
+# card_41
+en GRANDMOTHER
+de GROSSMUTTER
+
+# card_42
+en MINOTAUR
+de MINOTAURUS
+
+# card_43
+en EGGSHELL
+de EGGSHELL
+
+# card_44
+en FOOTPRINT
+de FUSSABDRUCK
+
+# card_45
+en MOIRA
+de MOIRA
+
+# card_46
+en MESOZOIC
+de MESOZOIKUM
+
+# card_47
+en MILK
+de MILK
+
+# card_48
+en DUNES
+de DÜNEN
+
+# card_49
+en DECK
+de DECK
+
+# card_50
+en ICE
+de EIS
+
+# card_51
+en REMINISCE
+de ERINNERUNGEN
+
+# card_52
+en HERETIC
+de KETZER
+
+# card_53
+en GOMKA
+de GOMKA
+
+# card_54
+en CHOIR
+de CHOR
+
+# card_55
+en TRICKERY
+de TRICKREICH
+
+# card_56
+en PINES
+de PINIEN
+
+# card_57
+en ARCTIC
+de ARKTISCH
+
+# card_58
+en WANDERED
+de ABGEREIST
+
+# card_59
+en STONE
+de STEIN
+
+# card_60
+en PILLARS
+de TÜRME
+
+# card_61
+en ULO
+de ULO
+
+# card_62
+en GROWTH
+de WACHSTUM
+
+# card_63
+en RUSH
+de RAUSCH
+
+# card_64
+en SAPLING
+de SCHÖSSLING
+
+# card_65
+en TRUNK
+de TRUHE
+
+# card_66
+en EXPLOSIVE
+de EXPLOSIV
+
+# card_67
+en PROSPECTOR
+de GOLDSUCHER
+
+# card_68
+en MEDICINE
+de MEDIZIN
+
+# card_69
+en FOUGHT
+de GEKÄMPFT
+
+# card_70
+en HEALER
+de HEILER
+
+# card_71
+en HUBRIS
+de ÜBERHEBLICHKEIT
+
+# card_72
+en HARPOON
+de HARPUNE
+
+# card_73
+en FAMINE
+de HUNGERSNOT
+
+# card_74
+en ROBOT
+de ROBOTER
+
+# card_75
+en MIRRORS
+de SPIEGEL
+
+# card_76
+en SOLVED
+de GELÖST
+
+# card_77
+en ENEMY
+de FEIND
+
+# card_78
+en RICH
+de REICH
+
+# card_79
+en TOWER
+de TURM
+
+# card_80
+en SHIFT
+de VERSCHIEBUNG
+
+# card_81
+en RUINED
+de RUINIERT
+
+# card_82
+en EXTINGUISHED
+de AUSGESTORBEN
+
+# card_83
+en IMMORTAL
+de UNSTERBLICH
+
+# card_84
+en HONOR
+de EHRE
+
+# card_85
+en CRYSTAL
+de KRISTALL
+
+# card_86
+en FEAST
+de FESTMAHL
+
+# card_87
+en HERRING
+de HERING
+
+# card_88
+en GHOST
+de GEIST
+
+# card_89
+en BLOOD
+de BLUT
+
+# card_90
+en SAGE
+de WEISER
+
+# card_91
+en MATERIALS
+de MATERIAL
+
+# card_92
+en OWL
+de EULE
+
+# card_93
+en CLOCK
+de UHR
+
+# card_94
+en HAGGLE
+de FEILSCHEN
+
+# card_95
+en TRIVIAL
+de TRIVIAL
+
+# card_96
+en LAUNCH
+de LOS
+
+# card_97
+en LANDING
+de LANDUNG
+
+# card_98
+en LIFT
+de LUFT
+
+# card_99
+en PATH
+de PFAD
+
+# card_100
+en SILENCE
+de STILLE
+
+# card_101
+en KEMTER
+de KEMTER
+
+# card_102
+en ELEPHANT
+de DRELEFANT
+
+# card_103
+en MANEUVER
+de MANÖVER
+
+# card_104
+en MONSTER
+de MONSTER
+
+# card_105
+en CAP
+de CAP
+
+# card_106
+en PINSTRIPE
+de NADELSTREIFEN
+
+# card_107
+en AMBROSIA
+de AMBROSIA
+
+# card_108
+en SHEPHERD
+de HIRTE
+
+# card_109
+en JOURNAL
+de TAGEBUCH
+
+# card_110
+en SANDSTONE
+de SANDSTEIN
+
+# card_111
+en SNAKE
+de SCHLANGE
+
+# card_112
+en COBRA
+de KOBRA
+
+# card_113
+en ROTTEN
+de VERROTTET
+
+# card_114
+en JACKAL
+de SCHAKAL
+
+# card_115
+en WELL
+de BRUNNEN
+
+# card_116
+en IMP
+de IMP
+
+# card_117
+en BICYCLE
+de FAHRRAD
+
+# card_118
+en ORE
+de ERZ
+
+# card_119
+en CINDER
+de ZUNDER
+
+# card_120
+en NUGGET
+de KLUMPEN
+
+# card_121
+en MUSHROOM
+de PILZ
+
+# card_122
+en PRINCE
+de PRINZ
+
+# card_123
+en PYRAMID
+de PYRAMIDE
+
+# card_124
+en BANISHED
+de VERBANNT
+
+# card_125
+en AIRSHIP
+de LUFTSCHIFF
+
+# card_126
+en GOAT
+de ZIEGE
+
+# card_127
+en TOMB
+de GRAB
+
+# card_128
+en LABYRINTH
+de LABYRINTH
+
+# card_129
+en IRON
+de EISEN
+
+# card_130
+en LETTER
+de BRIEF
+
+# card_131
+en DREAM
+de TRAUM
+
+# card_132
+en POISON
+de GIFT
+
+# card_133
+en SHIELD
+de SCHILD
+
+# card_134
+en SCIENCE
+de WISSENSCHAFT
+
+# card_135
+en HIVE
+de SCHERGEN
+
+# card_136
+en SONG
+de LIED
+
+# card_137
+en HUM
+de SUMMEN
+
+# card_138
+en DEAD
+de TOT
+
+# card_139
+en RED
+de ROT
+
+# card_140
+en SERPENT
+de SEESCHLANGE
+
+# card_141
+en POLLEN
+de POLLEN
+
+# card_142
+en TOAD
+de KRÖTE
+
+# card_143
+en CAMP
+de LAGER
+
+# card_144
+en ANIMALS
+de TIERE
+
+# card_145
+en EGG
+de EI
+
+# card_146
+en ARTIFACT
+de ARTEFAKT
+
+# card_147
+en PUZZLE
+de RÄTSEL
+
+# card_148
+en FLOWER
+de BLÜTE
+
+# card_149
+en ROAM
+de WANDERN
+
+# card_150
+en MIGHT
+de MACHT
+
+# card_151
+en CLAW
+de KLAUE
+
+# card_152
+en SUBMARINE
+de U-BOOT
+
+# card_153
+en SPARRING
+de SPARRING
+
+# card_154
+en COLLAPSE
+de EINSTURZ
+
+# card_155
+en PINK
+de PINK
+
+# card_156
+en THUG
+de SCHLÄGER
+
+# card_157
+en GLIGLION
+de GLIGLION
+
+# card_158
+en BASEMENT
+de KETTER
+
+# card_159
+en FATHER
+de VATER
+
+# card_160
+en BURN
+de BRAND
+
+# card_161
+en FROG
+de FROSCH
+
+# card_162
+en LIBRARY
+de BIBLIOTHEK
+
+# card_163
+en CAT
+de KATZE
+
+# card_164
+en JUNK
+de SCHROTT
+
+# card_165
+en RUST
+de ROST
+
+# card_166
+en AXE
+de AXT
+
+# card_167
+en GOGGLES
+de BRILLE
+
+# card_181
+en INSECT
+de {INSECT}
+
+# card_182
+en MANSION
+de {MANSION}
+
+# card_183
+en UNPAID
+de {UNPAID}
+
+# card_184
+en EMPTY
+de {EMPTY}
+
+# card_185
+en GENEROUS
+de {GENEROUS}
+
+# card_186
+en IDOL
+de {IDOL}
+
+# card_187
+en EMBERSTONE
+de {EMBERSTONE}
+
+# card_188
+en THIRD
+de {THIRD}
+
+# card_189
+en UNMADE
+de {UNMADE}
+
+# card_190
+en VIOLET
+de {VIOLET}
+
+# card_191
+en HISTORY
+de {HISTORY}
+
+# card_192
+en WITNESS
+de {WITNESS}
+
+# card_193
+en BOTTLE
+de {BOTTLE}
+
+# card_194
+en EPIC
+de {EPIC}
+
+# card_195
+en POEM
+de {POEM}
+
+# card_196
+en BEHEMOTH
+de {BEHEMOTH}
+
+# card_197
+en SCHISM
+de {SCHISM}
+
+# card_198
+en CRYING
+de {CRYING}
+
+# card_199
+en ARCHEOLOGIST
+de {ARCHEOLOGIST}
+
+# card_200
+en LAUGHING
+de {LAUGHING}
+
+# card_202
+en EGRESS
+de {EGRESS}
+
+# card_203
+en INHERITANCE
+de {INHERITANCE}
+
+# card_204
+en SPOUT
+de {SPOUT}
+
+# card_205
+en OFFSPRING
+de {OFFSPRING}
+
+# card_206
+en SECLUDED
+de {SECLUDED}
+
+# card_207
+en VAPOR
+de {VAPOR}
+
+# card_208
+en BLAZE
+de {BLAZE}
+
+# card_209
+en MURK
+de {MURK}
+
+# card_210
+en FRAZZLED
+de {FRAZZLED}
+
+# card_211
+en PALMING
+de {PALMING}
+
+# card_212
+en PACHYDERM
+de {PACHYDERM}
+
+# card_213
+en DISENTANGLE
+de {DISENTANGLE}
+
+# card_214
+en LOGBOOKS
+de {LOGBOOKS}
+
+# card_215
+en CRACKLES
+de {CRACKLES}
+
+# card_216
+en CHARMING
+de {CHARMING}
+
+# card_217
+en HOLLER
+de {HOLLER}
+
+# card_218
+en BOOKSHOP
+de {BOOKSHOP}

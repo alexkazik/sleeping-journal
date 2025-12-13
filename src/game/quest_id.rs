@@ -1,4 +1,4 @@
-use crate::game::generated::{QUESTS_COLUMNS, QUESTS_KEYWORDS};
+use crate::game::data::{NUM_QUESTS, QUEST_KEYWORDS};
 
 #[cfg_attr(feature = "debug", derive(Debug))]
 #[derive(Copy, Clone, Eq, PartialEq, Hash, Ord, PartialOrd)]
@@ -15,7 +15,7 @@ impl QuestId {
     #[inline]
     #[must_use]
     pub(crate) fn from_raw(raw: usize) -> Option<Self> {
-        if raw < QUESTS_COLUMNS {
+        if raw < NUM_QUESTS {
             #[allow(clippy::cast_possible_truncation)]
             Some(Self(raw as u16))
         } else {
@@ -26,7 +26,7 @@ impl QuestId {
     #[inline]
     #[must_use]
     pub(crate) fn is_keyword_raw(self) -> bool {
-        QUESTS_KEYWORDS[self.0 as usize]
+        QUEST_KEYWORDS[self.0 as usize]
     }
 
     #[inline]

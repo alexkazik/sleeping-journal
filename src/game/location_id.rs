@@ -1,5 +1,5 @@
 use crate::game::GameLanguage;
-use crate::game::generated::{LOCATIONS, LOCATIONS_ROWS};
+use crate::game::data::{LOCATIONS, MUN_LOCATIONS};
 use std::iter::Map;
 use std::ops::Range;
 
@@ -18,7 +18,7 @@ impl LocationId {
     #[inline]
     #[must_use]
     pub(crate) fn from_raw(raw: usize) -> Option<Self> {
-        if raw > 0 && raw < LOCATIONS_ROWS {
+        if raw > 0 && raw < MUN_LOCATIONS {
             #[allow(clippy::cast_possible_truncation)]
             Some(Self(raw as u16))
         } else {
@@ -29,7 +29,7 @@ impl LocationId {
     #[inline]
     pub(crate) fn all() -> Map<Range<u16>, fn(u16) -> LocationId> {
         #[allow(clippy::cast_possible_truncation)]
-        (0..(LOCATIONS_ROWS as u16)).map(LocationId)
+        (0..(MUN_LOCATIONS as u16)).map(LocationId)
     }
 
     #[inline]

@@ -4,11 +4,10 @@ Use the tool [here](https://alexkazik.github.io/sleeping-journal/).
 
 ## Translation
 
-If you want to help with the translation of the website, update the `msg.lrc` file.
-And then either create a pull request, an issue or contact me (see below).
+If you want to help with the translation, update wither `msg.lrc` and/or `game.lrc`.
 
-For translations of the game (quests) please contact me (via [email](mailto:sleeping-journal+6437@tx0.eu)
-or [BGG](https://boardgamegeek.com/geekmail/compose?touser=txnull)).
+And then either create a pull request, an issue or contact me
+(via [email](mailto:sleeping-journal+6437@tx0.eu) or [BGG](https://boardgamegeek.com/geekmail/compose?touser=txnull)).
 
 ## Running it yourself
 

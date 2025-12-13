@@ -5,8 +5,8 @@ pub(crate) use crate::game::msg::MsgLanguage;
 pub(crate) use crate::game::quest_id::QuestId;
 pub(crate) use crate::game::quest_locale::QuestLocale;
 
+mod data;
 mod game_language;
-mod generated;
 mod location_id;
 mod map;
 mod msg;

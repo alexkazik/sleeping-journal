@@ -1291,18 +1291,18 @@ dependencies = [
 
 [[package]]
 name = "typed-i18n"
-version = "0.6.1"
+version = "0.6.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b4f549b7d57c4e605dc8057a410a6d6533408f9fed8dcea52a9dfb5033d9f3a3"
+checksum = "88cf981c5a06799d7ff93c39c7430807a399829156a807a7afaf13abd962f017"
 dependencies = [
  "typed-i18n-derive",
 ]
 
 [[package]]
 name = "typed-i18n-derive"
-version = "0.7.1"
+version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fb2f6b5647ddf0cd25636205f5e70a16d0f73547b7ca69930805606f49ff17cc"
+checksum = "9b6e57ebcbcd0b2d94aaa426a86d3b58658afbe5d890dffc4e763227f507f361"
 dependencies = [
  "proc-macro-error",
  "proc-macro2",
@@ -1313,9 +1313,9 @@ dependencies = [
 
 [[package]]
 name = "typed-i18n-support"
-version = "0.7.1"
+version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f7bf01282f2dcadec7a66822f5376ae55925af97a02298df8084e25ddb538e54"
+checksum = "601025c25e30650ca75b8c050ca0b6485832c9e2cacfff59ca732c9b80463a78"
 dependencies = [
  "convert_case",
  "indexmap",
