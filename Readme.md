@@ -35,5 +35,5 @@ trunk build
 If the application will not be in the domain root (e.g. `https://example.com/sleeping-journal`):
 
 ```bash
-trunk build --no-default-features --public-url /sleeping-journal
+trunk build --public-url /sleeping-journal
 ```
