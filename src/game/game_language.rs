@@ -13,7 +13,7 @@
 #[repr(usize)]
 #[enum_tools(as_str, iter, names)]
 #[typed_i18n(filename = "game.lrc")]
-#[typed_i18n(builder = "mixed_str")]
+#[typed_i18n(builder = "static_str")]
 pub(crate) enum GameLanguage {
     #[enum_tools(rename = "Deutsch")]
     #[serde(rename = "de")]

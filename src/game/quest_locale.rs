@@ -1,11 +1,12 @@
-use crate::game::generated::QUESTS;
+use crate::game::generated::{QUESTS, QUESTS_COLUMNS};
 use crate::game::{GameLanguage, QuestId};
+use std::array;
 use std::iter::Copied;
 use std::slice::Iter;
 
 pub(crate) struct QuestLocale {
     language: GameLanguage,
-    translation: Vec<(QuestId, &'static str)>,
+    translation: [(QuestId, &'static str); QUESTS_COLUMNS],
 }
 
 impl QuestLocale {
@@ -15,11 +16,7 @@ impl QuestLocale {
         #[allow(clippy::cast_possible_truncation)]
         let mut result = Self {
             language,
-            translation: QUESTS[language as usize]
-                .iter()
-                .enumerate()
-                .map(|(i, n)| (QuestId(i as u16), *n))
-                .collect(),
+            translation: array::from_fn(|i| (QuestId(i as u16), "")),
         };
         result.set_language(language);
         result
