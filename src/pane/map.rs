@@ -103,7 +103,7 @@ impl SubComponent for PaneMap {
 
         html! {
             <>
-            <table style="background-color: #FAE4BC">
+            <table id="map_table" style="background-color: #FAE4BC">
                 <tbody>
                     {for map}
                 </tbody>
