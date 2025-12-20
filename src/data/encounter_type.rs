@@ -1,3 +1,4 @@
+use crate::game::MsgLanguage;
 use serde_repr::{Deserialize_repr, Serialize_repr};
 use yew_bootstrap::icons::BI;
 
@@ -58,6 +59,16 @@ impl EncounterType {
             "complete" => Some(EncounterType::Complete),
             "lose" => Some(EncounterType::Lose),
             _ => None,
+        }
+    }
+
+    pub(crate) fn name_ma_nq(self, locale: MsgLanguage) -> &'static str {
+        match self {
+            EncounterType::Unless => locale.str_ma_nq_unless(),
+            EncounterType::Gain => locale.str_ma_nq_gain(),
+            EncounterType::When => locale.str_ma_nq_when(),
+            EncounterType::Complete => locale.str_ma_nq_complete(),
+            EncounterType::Lose => locale.str_ma_nq_lose(),
         }
     }
 }

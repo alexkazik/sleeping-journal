@@ -57,16 +57,6 @@ fn nqt_allow(nqt: EncounterType, data: &Data, quest_id: QuestId) -> bool {
     }
 }
 
-fn nqt_head(nqt: EncounterType) -> &'static str {
-    match nqt {
-        EncounterType::Gain => "Gain",
-        EncounterType::Complete => "Complete",
-        EncounterType::Lose => "Lose",
-        EncounterType::When => "When",
-        EncounterType::Unless => "Unless",
-    }
-}
-
 impl SubComponent for PaneMapNewQuest {
     type Message = MsgMapNewQuest;
     type Ser = EmptySer;
@@ -199,7 +189,7 @@ impl PaneMapNewQuest {
                     {data.msg.location( self.location_id.name(data.quest_locale.language()))}
                 </li>
                 <li class="list-group-item">
-                    <h3>{nqt_head(self.encounter_type)}</h3>
+                    <h3>{self.encounter_type.name_ma_nq(data.msg)}</h3>
                 </li>
                 {for quests}
             </ul>
@@ -267,7 +257,7 @@ impl PaneMapNewQuest {
                     {data.msg.location( self.location_id.name(data.quest_locale.language()))}
                 </li>
                 <li class="list-group-item">
-                    <h3>{nqt_head(self.encounter_type)}</h3>
+                    <h3>{self.encounter_type.name_ma_nq(data.msg)}</h3>
                 </li>
                 <li class="list-group-item">
                     <h3>{data.msg.quest_header( data.quest_locale.get(self.quest_id), Quest::icon_from_raw(self.quest_id))}</h3>
