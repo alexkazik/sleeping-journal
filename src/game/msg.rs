@@ -29,6 +29,10 @@ pub(crate) enum MsgLanguage {
     #[serde(rename = "de")]
     #[typed_i18n(name = "de")]
     Deutsch,
+    #[enum_tools(rename = "Polski")]
+    #[serde(rename = "pl")]
+    #[typed_i18n(name = "pl")]
+    Polski,
 }
 
 pub(crate) struct HtmlBuilder {

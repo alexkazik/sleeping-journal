@@ -1,819 +1,1024 @@
 # prologue
 en Prologue
 de Prolog
+pl Prolog
 
 # card_1
 en RAID
 de RAUBZUG
+pl NAJAZD
 
 # card_2
 en COTTAGE
 de HÜTTE
+pl CHATA
 
 # card_3
 en SUPPLIES
 de VORRÄTE
+pl ZAPASY
 
 # card_4
 en ABYSMAL
 de ABGRUNDTIEF
+pl BEZMIAR
 
 # card_5
 en FREIGHTER
 de FRACHTER
+pl FRACHTOWIEC
 
 # card_6
 en FALCON
 de FALKE
+pl SOKÓŁ
 
 # card_7
 en UNLEASH
 de ENTFESSELT
+pl UWOLNIENIE
 
 # card_8
 en EXPECTED
 de ERWARTET
+pl OCZEKIWANY
 
 # card_9
 en COOK
 de KOCH
+pl KUCHTA
 
 # card_10
 en PICTURE
 de LICHTBILD
+pl ZDJĘCIE
 
 # card_11
 en HUNTED
 de GEJAGT
+pl POSZUKIWANIE
 
 # card_12
 en HEIST
 de RAUB
+pl RABUNEK
 
 # card_13
 en ABANDON
 de VERLASSEN
+pl PORZUCENIE
 
 # card_14
 en FOAM
 de SCHAUM
+pl PIANA
 
 # card_15
 en CHAINS
 de KETTEN
+pl ŁAŃCUCHY
 
 # card_16
 en SHRINE
 de SCHREIN
+pl CHRAM
 
 # card_17
 en EARTHQUAKE
 de ERDBEBEN
+pl TRZĘSIENIE ZIEMI
 
 # card_18
 en PASSWORD
 de PASSWORT
+pl HASŁO
 
 # card_19
 en AUCTION
 de AUKTION
+pl AUKCJA
 
 # card_20
 en THUNDER
 de DONNER
+pl GRZMOT
 
 # card_21
 en MINE
 de MINE
+pl KOPALNIA
 
 # card_22
 en SHELL
 de MUSCHEL
+pl MUSZLA
 
 # card_23
 en CLEAN
 de REIN
+pl CZYSTOŚĆ
 
 # card_24
 en SAPPHIRE
 de SAPHIR
+pl SZAFIR
 
 # card_25
 en LUXURY
 de LUXUS
+pl LUKSUS
 
 # card_26
 en SLEEP
 de SCHLAF
+pl SEN
 
 # card_27
 en GUSTO
 de GUSTO
+pl APETYT
 
 # card_28
 en DAGGER
 de DOLCH
+pl SZTYLET
 
 # card_29
 en SPLINTER
 de SPLITTER
+pl DRZAZGI
 
 # card_30
 en SIRENS
 de SIRENEN
+pl SYRENY
 
 # card_31
 en UNDERWORLD
 de UNTERWELT
+pl PODZIEMIA
 
 # card_32
 en GRANDCHILDREN
 de ENKEL
+pl WNUKI
 
 # card_33
 en SWIM
 de SCHWIMMEN
+pl PŁYWANIE
 
 # card_34
 en GUIDE
 de FÜHRERIN
+pl PRZEWODNICZKA
 
 # card_35
 en ZOO
 de ZOO
+pl ZOO
 
 # card_36
 en MAIL
 de POST
+pl POCZTA
 
 # card_37
 en BARNACLE
 de SEEPOCKE
+pl PĄKLA
 
 # card_38
 en SQUARE
 de QUADRAT
+pl KWADRAT
 
 # card_39
 en TABLET
 de TAFEL
+pl TABLICZKA
 
 # card_40
 en GRANDFATHER
 de GROSSVATER
+pl DZIADEK
 
 # card_41
 en GRANDMOTHER
 de GROSSMUTTER
+pl BABCIA
 
 # card_42
 en MINOTAUR
 de MINOTAURUS
+pl MINOTAUR
 
 # card_43
 en EGGSHELL
 de EGGSHELL
+pl SKORUPKA
 
 # card_44
 en FOOTPRINT
 de FUSSABDRUCK
+pl ŚLAD
 
 # card_45
 en MOIRA
 de MOIRA
+pl MOIRA
 
 # card_46
 en MESOZOIC
 de MESOZOIKUM
+pl MEZOZOIK
 
 # card_47
 en MILK
 de MILK
+pl MILK
 
 # card_48
 en DUNES
 de DÜNEN
+pl WYDMY
 
 # card_49
 en DECK
 de DECK
+pl POKŁAD
 
 # card_50
 en ICE
 de EIS
+pl LÓD
 
 # card_51
 en REMINISCE
 de ERINNERUNGEN
+pl WSPOMNIENIE
 
 # card_52
 en HERETIC
 de KETZER
+pl HERETYCZKA
 
 # card_53
 en GOMKA
 de GOMKA
+pl GOMKA
 
 # card_54
 en CHOIR
 de CHOR
+pl CHÓR
 
 # card_55
 en TRICKERY
 de TRICKREICH
+pl PODSTĘP
 
 # card_56
 en PINES
 de PINIEN
+pl SOSNY
 
 # card_57
 en ARCTIC
 de ARKTISCH
+pl ARKTYKA
 
 # card_58
 en WANDERED
 de ABGEREIST
+pl WĘDRÓWKA
 
 # card_59
 en STONE
 de STEIN
+pl KAMIEŃ
 
 # card_60
 en PILLARS
 de TÜRME
+pl FILARY
 
 # card_61
 en ULO
 de ULO
+pl ULO
 
 # card_62
 en GROWTH
 de WACHSTUM
+pl ROZROST
 
 # card_63
 en RUSH
 de RAUSCH
+pl PĘD
 
 # card_64
 en SAPLING
 de SCHÖSSLING
+pl SADZONKA
 
 # card_65
 en TRUNK
 de TRUHE
+pl KUFER
 
 # card_66
 en EXPLOSIVE
 de EXPLOSIV
+pl WYBUCH
 
 # card_67
 en PROSPECTOR
 de GOLDSUCHER
+pl POSZUKIWACZ
 
 # card_68
 en MEDICINE
 de MEDIZIN
+pl LEKARSTWO
 
 # card_69
 en FOUGHT
 de GEKÄMPFT
+pl STARCIE
 
 # card_70
 en HEALER
 de HEILER
+pl UZDROWICIEL
 
 # card_71
 en HUBRIS
 de ÜBERHEBLICHKEIT
+pl PYCHA
 
 # card_72
 en HARPOON
 de HARPUNE
+pl HARPUN
 
 # card_73
 en FAMINE
 de HUNGERSNOT
+pl GŁÓD
 
 # card_74
 en ROBOT
 de ROBOTER
+pl ROBOT
 
 # card_75
 en MIRRORS
 de SPIEGEL
+pl LUSTRA
 
 # card_76
 en SOLVED
 de GELÖST
+pl ROZWIĄZANIE
 
 # card_77
 en ENEMY
 de FEIND
+pl WRÓG
 
 # card_78
 en RICH
 de REICH
+pl BOGACZ
 
 # card_79
 en TOWER
 de TURM
+pl WIEŻA
 
 # card_80
 en SHIFT
 de VERSCHIEBUNG
+pl ZMIANA
 
 # card_81
 en RUINED
 de RUINIERT
+pl RUINY
 
 # card_82
 en EXTINGUISHED
 de AUSGESTORBEN
+pl UGASZENIE
 
 # card_83
 en IMMORTAL
 de UNSTERBLICH
+pl NIEŚMIERTELNOŚĆ
 
 # card_84
 en HONOR
 de EHRE
+pl HONOR
 
 # card_85
 en CRYSTAL
 de KRISTALL
+pl KRYSZTAŁ
 
 # card_86
 en FEAST
 de FESTMAHL
+pl UCZTA
 
 # card_87
 en HERRING
 de HERING
+pl ŚLEDŹ
 
 # card_88
 en GHOST
 de GEIST
+pl DUCH
 
 # card_89
 en BLOOD
 de BLUT
+pl KREW
 
 # card_90
 en SAGE
 de WEISER
+pl MĘDRZEC
 
 # card_91
 en MATERIALS
 de MATERIAL
+pl MATERIAŁY
 
 # card_92
 en OWL
 de EULE
+pl SOWA
 
 # card_93
 en CLOCK
 de UHR
+pl ZEGAR
 
 # card_94
 en HAGGLE
 de FEILSCHEN
+pl TARGOWANIE
 
 # card_95
 en TRIVIAL
 de TRIVIAL
+pl BŁAHOSTKA
 
 # card_96
 en LAUNCH
 de LOS
+pl START
 
 # card_97
 en LANDING
 de LANDUNG
+pl LĄDOWANIE
 
 # card_98
 en LIFT
 de LUFT
+pl WZNOSZENIE
 
 # card_99
 en PATH
 de PFAD
+pl DROGA
 
 # card_100
 en SILENCE
 de STILLE
+pl CISZA
 
 # card_101
 en KEMTER
 de KEMTER
+pl KEMTER
 
 # card_102
 en ELEPHANT
 de DRELEFANT
+pl SŁOŃ
 
 # card_103
 en MANEUVER
 de MANÖVER
+pl MANEWR
 
 # card_104
 en MONSTER
 de MONSTER
+pl POTWÓR
 
 # card_105
 en CAP
 de CAP
+pl KAPITAN
 
 # card_106
 en PINSTRIPE
 de NADELSTREIFEN
+pl PRĄŻKOWANY
 
 # card_107
 en AMBROSIA
 de AMBROSIA
+pl AMBROZJA
 
 # card_108
 en SHEPHERD
 de HIRTE
+pl PASTERZ
 
 # card_109
 en JOURNAL
 de TAGEBUCH
+pl DZIENNIK
 
 # card_110
 en SANDSTONE
 de SANDSTEIN
+pl PIASKOWIEC
 
 # card_111
 en SNAKE
 de SCHLANGE
+pl WĄŻ
 
 # card_112
 en COBRA
 de KOBRA
+pl KOBRA
 
 # card_113
 en ROTTEN
 de VERROTTET
+pl ZGNILIZNA
 
 # card_114
 en JACKAL
 de SCHAKAL
+pl SZAKAL
 
 # card_115
 en WELL
 de BRUNNEN
+pl STUDNIA
 
 # card_116
 en IMP
 de IMP
+pl CHOCHLIK
 
 # card_117
 en BICYCLE
 de FAHRRAD
+pl ROWER
 
 # card_118
 en ORE
 de ERZ
+pl RUDA
 
 # card_119
 en CINDER
 de ZUNDER
+pl POPIÓŁ
 
 # card_120
 en NUGGET
 de KLUMPEN
+pl SAMORODEK
 
 # card_121
 en MUSHROOM
 de PILZ
+pl GRZYB
 
 # card_122
 en PRINCE
 de PRINZ
+pl KSIĄŻĘ
 
 # card_123
 en PYRAMID
 de PYRAMIDE
+pl PIRAMIDA
 
 # card_124
 en BANISHED
 de VERBANNT
+pl WYGNANIE
 
 # card_125
 en AIRSHIP
 de LUFTSCHIFF
+pl STEROWIEC
 
 # card_126
 en GOAT
 de ZIEGE
+pl KOZA
 
 # card_127
 en TOMB
 de GRAB
+pl GROBOWIEC
 
 # card_128
 en LABYRINTH
 de LABYRINTH
+pl LABIRYNT
 
 # card_129
 en IRON
 de EISEN
+pl ŻELAZO
 
 # card_130
 en LETTER
 de BRIEF
+pl LIST
 
 # card_131
 en DREAM
 de TRAUM
+pl ŚNIENIE
 
 # card_132
 en POISON
 de GIFT
+pl TRUCIZNA
 
 # card_133
 en SHIELD
 de SCHILD
+pl TARCZA
 
 # card_134
 en SCIENCE
 de WISSENSCHAFT
+pl NAUKA
 
 # card_135
 en HIVE
 de SCHERGEN
+pl RÓJ
 
 # card_136
 en SONG
 de LIED
+pl PIEŚŃ
 
 # card_137
 en HUM
 de SUMMEN
+pl NUCENIE
 
 # card_138
 en DEAD
 de TOT
+pl TRUP
 
 # card_139
 en RED
 de ROT
+pl CZERWIEŃ
 
 # card_140
 en SERPENT
 de SEESCHLANGE
+pl WĄŻ MORSKI
 
 # card_141
 en POLLEN
 de POLLEN
+pl PYŁEK
 
 # card_142
 en TOAD
 de KRÖTE
+pl ROPUCHA
 
 # card_143
 en CAMP
 de LAGER
+pl OBÓZ
 
 # card_144
 en ANIMALS
 de TIERE
+pl ZWIERZĘTA
 
 # card_145
 en EGG
 de EI
+pl JAJKO
 
 # card_146
 en ARTIFACT
 de ARTEFAKT
+pl ARTEFAKT
 
 # card_147
 en PUZZLE
 de RÄTSEL
+pl ŁAMIGŁÓWKA
 
 # card_148
 en FLOWER
 de BLÜTE
+pl KWIAT
 
 # card_149
 en ROAM
 de WANDERN
+pl WŁÓCZĘGA
 
 # card_150
 en MIGHT
 de MACHT
+pl POTĘGA
 
 # card_151
 en CLAW
 de KLAUE
+pl SZPON
 
 # card_152
 en SUBMARINE
 de U-BOOT
+pl ŁÓDŹ PODWODNA
 
 # card_153
 en SPARRING
 de SPARRING
+pl SPARING
 
 # card_154
 en COLLAPSE
 de EINSTURZ
+pl ZWALISKO
 
 # card_155
 en PINK
 de PINK
+pl RÓŻ
 
 # card_156
 en THUG
 de SCHLÄGER
+pl ZBIR
 
 # card_157
 en GLIGLION
 de GLIGLION
+pl GLIGLION
 
 # card_158
 en BASEMENT
 de KETTER
+pl PIWNICA
 
 # card_159
 en FATHER
 de VATER
+pl OJCIEC
 
 # card_160
 en BURN
 de BRAND
+pl SPALENIE
 
 # card_161
 en FROG
 de FROSCH
+pl ŻABA
 
 # card_162
 en LIBRARY
 de BIBLIOTHEK
+pl BIBLIOTEKA
 
 # card_163
 en CAT
 de KATZE
+pl KOT
 
 # card_164
 en JUNK
 de SCHROTT
+pl ŚMIECI
 
 # card_165
 en RUST
 de ROST
+pl RDZA
 
 # card_166
 en AXE
 de AXT
+pl TOPÓR
 
 # card_167
 en GOGGLES
 de BRILLE
+pl GOGLE
 
 # card_181
 en INSECT
 de {INSECT}
+pl {INSECT}
 
 # card_182
 en MANSION
 de {MANSION}
+pl {MANSION}
 
 # card_183
 en UNPAID
 de {UNPAID}
+pl {UNPAID}
 
 # card_184
 en EMPTY
 de {EMPTY}
+pl {EMPTY}
 
 # card_185
 en GENEROUS
 de {GENEROUS}
+pl {GENEROUS}
 
 # card_186
 en IDOL
 de {IDOL}
+pl {IDOL}
 
 # card_187
 en EMBERSTONE
 de {EMBERSTONE}
+pl {EMBERSTONE}
 
 # card_188
 en THIRD
 de {THIRD}
+pl {THIRD}
 
 # card_189
 en UNMADE
 de {UNMADE}
+pl {UNMADE}
 
 # card_190
 en VIOLET
 de {VIOLET}
+pl {VIOLET}
 
 # card_191
 en HISTORY
 de {HISTORY}
+pl {HISTORY}
 
 # card_192
 en WITNESS
 de {WITNESS}
+pl {WITNESS}
 
 # card_193
 en BOTTLE
 de {BOTTLE}
+pl {BOTTLE}
 
 # card_194
 en EPIC
 de {EPIC}
+pl {EPIC}
 
 # card_195
 en POEM
 de {POEM}
+pl {POEM}
 
 # card_196
 en BEHEMOTH
 de {BEHEMOTH}
+pl {BEHEMOTH}
 
 # card_197
 en SCHISM
 de {SCHISM}
+pl {SCHISM}
 
 # card_198
 en CRYING
 de {CRYING}
+pl {CRYING}
 
 # card_199
 en ARCHEOLOGIST
 de {ARCHEOLOGIST}
+pl {ARCHEOLOGIST}
 
 # card_200
 en LAUGHING
 de {LAUGHING}
+pl {LAUGHING}
 
 # card_202
 en EGRESS
 de {EGRESS}
+pl {EGRESS}
 
 # card_203
 en INHERITANCE
 de {INHERITANCE}
+pl {INHERITANCE}
 
 # card_204
 en SPOUT
 de {SPOUT}
+pl {SPOUT}
 
 # card_205
 en OFFSPRING
 de {OFFSPRING}
+pl {OFFSPRING}
 
 # card_206
 en SECLUDED
 de {SECLUDED}
+pl {SECLUDED}
 
 # card_207
 en VAPOR
 de {VAPOR}
+pl {VAPOR}
 
 # card_208
 en BLAZE
 de {BLAZE}
+pl {BLAZE}
 
 # card_209
 en MURK
 de {MURK}
+pl {MURK}
 
 # card_210
 en FRAZZLED
 de {FRAZZLED}
+pl {FRAZZLED}
 
 # card_211
 en PALMING
 de {PALMING}
+pl {PALMING}
 
 # card_212
 en PACHYDERM
 de {PACHYDERM}
+pl {PACHYDERM}
 
 # card_213
 en DISENTANGLE
 de {DISENTANGLE}
+pl {DISENTANGLE}
 
 # card_214
 en LOGBOOKS
 de {LOGBOOKS}
+pl {LOGBOOKS}
 
 # card_215
 en CRACKLES
 de {CRACKLES}
+pl {CRACKLES}
 
 # card_216
 en CHARMING
 de {CHARMING}
+pl {CHARMING}
 
 # card_217
 en HOLLER
 de {HOLLER}
+pl {HOLLER}
 
 # card_218
 en BOOKSHOP
 de {BOOKSHOP}
+pl {BOOKSHOP}

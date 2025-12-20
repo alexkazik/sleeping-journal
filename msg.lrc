@@ -1,314 +1,412 @@
 # key
 en English
 de Deutsch
+pl Polski
 
 // universal
 # back
 en Back
 de Zurück
+pl Powrót
 # close
 en Close
 de Schließen
+pl Zamknij
 # location
 en Location: %{location}
 de Standort: %{location}
+pl Obszar: %{location}
 # location_with_icon
 en Location %{location} *{icon}:
 de Standort %{location} *{icon}:
+pl Obszar %{location} *{icon}:
 # note
 en Note
 de Notiz
+pl Notatka
 # note_modal_head
 en Note about: %{name}
 de Notiz über: %{name}
+pl Notatka o: %{name}
 # note_placeholder
 en Write a note here
 de Hier eine Notiz erstellen
+pl Miejsce na notatkę
 # note_quest
 en Note for this quest:
 de Notiz für diese Quest:
+pl Notatka o tym zadaniu:
 # note_with_icon
 en *{icon} %{note}
 de *{icon} %{note}
+pl *{icon} %{note}
 # page
 en Page %{page}
 de Seite %{page}
+pl Strona %{page}
 # page_short_braced
 en (p. %{page})
 de (p. %{page})
+pl (s. %{page})
 # page_short
 en p. %{page}
 de p. %{page}
+pl s. %{page}
 # page_short_lr
 en p. %{l_page}/%{r_page}
 de p. %{l_page}/%{r_page}
+pl s. %{l_page}/%{r_page}
 # page_star_help
 en This location is for events without a location (or if you forgot where it was).
 de Dieser Standort ist für Events ohne einen Standort (oder falls du vergessen hast wo es war).
+pl Ten obszar jest dla wydarzeń bez położenia (albo gdy zapomnisz, gdzie ono było).
 # quest_header
 en %{name} *{icon}
 de %{name} *{icon}
+pl %{name} *{icon}
 # quest_header_with_state
 en %{name} *{icon} (%{state})
 de %{name} *{icon} (%{state})
+pl %{name} *{icon} (%{state})
 # quest_button_for_prerequisite
 en (req. %{quest})
 de (req. %{quest})
+pl (wymaga %{quest})
 # quest_button
 en %{location} *{page} *{encounters} %{prerequisite}
 de %{location} *{page} *{encounters} %{prerequisite}
+pl %{location} *{page} *{encounters} %{prerequisite}
 # state_in_game
 en In Game
 de Im Spiel
+pl W grze
 # state_not_found
 en Not Found
 de Nicht gefunden
+pl Nie znalezione
 # state_removed
 en Removed
 de Entfernt
+pl Usunięte
 # vis_hidden_forever
 en Hidden forever
 de Dauerhaft versteckt
+pl Ukryte na zawsze
 # vis_hidden_this_campaign
 en Hidden for this campaign
 de Für diese Kampagne versteckt
+pl Ukryte na tę kampanię
 # vis_visible
 en Visible
 de Sichtbar
+pl Widoczne
 
 // nav
 # nav_info
 en Info
 de Info
+pl Informacje
 # nav_quests
 en Quests
 de Quests
+pl Zadania
 # nav_todo
 en Todo
 de Zu erledigen
+pl Do zrobienia
 # nav_map
 en Map
 de Karte
+pl Mapa
 # nav_edit
 en Edit
 de Bearbeiten
+pl Edycja
 # nav_settings
 en Settings
 de Einstellungen
+pl Ustawienia
 
 // todo
 # todo_header_quest
 en Quest
 de Quest
+pl Zadanie
 # todo_header_hints
 en Hints
 de Hinweise
+pl Podpowiedzi
 # todo_no_hints_yet
 en no hints yet
 de bisher keine Hinweise
+pl Brak podpowiedzi
 # todo_do_hide_this_campaign
 en Hide the option to *{icon} from this quest and location for this campaign
 de Verstecke den Standort und die Option für *{icon} von dieser Quest für diese Kampagne
+pl Ukryj możliwość *{icon} z tego zadania oraz obszaru dla tej kampanii
 # todo_do_hide_forever
 en Hide the option to *{icon} from this quest and location forever
 de Verstecke den Standort und die Option für *{icon} von dieser Quest dauerhaft
+pl Ukryj możliwość *{icon} z tego zadania oraz obszaru na zawsze
 # todo_do_hide_quest_this_campaign
 en Hide this quest for this campaign
 de Verstecke diese Quest für diese Kampagne
+pl Ukryj to zadanie z tej kampanii
 # todo_do_hide_quest_forever
 en Hide this quest forever
 de Verstecke diese Quest dauerhaft
+pl Ukryj to zadanie na zawsze
 # todo_quests_and_keywords
 en *{quest}+*{keyword}
 de *{quest}+*{keyword}
+pl *{quest}+*{keyword}
 # todo_typ_in_game
 en In Game
 de Im Spiel
+pl W grze
 # todo_typ_gain_with_complete
 en *{gain} w/ *{complete}
 de *{gain} mit *{complete}
+pl *{gain} z *{complete}
 # todo_typ_gain_wo_complete
 en *{gain} w/o *{complete}
 de *{gain} ohne *{complete}
+pl *{gain} bez *{complete}
 
 // map/location
 # ma_lo_location_note
 en Note for this location:
 de Notiz für diesen Standort:
+pl Notatka dla tego obszaru
 # ma_lo_quests_header
 en Quests:
 de Quests:
+pl Zadania:
 # ma_lo_new_quest
 en New Quest
 de Neue Quest
+pl Nowe zadanie
 # ma_lo_header_quest
 en Quest
 de Quest
+pl Zadanie
 # ma_lo_header_hints
 en Hints
 de Hinweise
+pl Podpowiedzi
 
 // map/new_quest
 # ma_nq_gain
 en We gained a new quest
 de Wir haben eine neue Quest erhalten
+pl Uzyskaliśmy nowe zadanie
 # ma_nq_complete
 en We completed a quest
 de Wir haben eine Quest abgeschlossen
+pl Ukończyliśmy zadanie
 # ma_nq_lose
 en We lost a quest
 de Eine Quest ist gescheitert
+pl Utraciliśmy zadanie
 # ma_nq_when
 en We were asked to HAVE a keyword
 de Wir wurden gefragt ob wir EIN Schlüsselwort haben
+pl Wymagane słowo kluczowe
 # ma_nq_unless
 en We were asked to NOT have a keyword
 de Wir wurden gefragt ob wir KEIN Schlüsselwort haben
+pl Wymagany brak słowa kluczowego
 # ma_nq_prerequisite
 en Prerequisite:
 de Vorraussetzungen
+pl Wymagania:
 # ma_nq_no_prerequisite
 en -
 de -
+pl -
 # ma_nq_save
 en Save
 de Speichern
+pl Zapisz
 
 // action (common todo+map)
 # acti_gain_quest
 en We gained this quest here
 de Hier haben wir die Quest erhalten
+pl Uzyskaliśmy to zadanie tutaj
 # acti_gain_quest_found
 en Cannot be gained: already in play
 de Quest bereits erhalten und im Spiel
+pl Nie może zostać uzyskane: obecnie w grze
 # acti_gain_quest_no_pre
 en Cannot be gained: prerequisite not fulfilled
 de Vorraussetzungen für diese Quest sind nicht erfüllt
+pl Nie może zostać uzyskane: wymagania nie zostały spełnione
 # acti_complete_quest
 en We completed this quest here
 de Hier haben wir die Quest gelöst
+pl Ukończyliśmy to zadanie tutaj
 # acti_complete_quest_no
 en Cannot be completed: is not in play
 de Kann nicht abgeschlossen werden da nicht im Spiel
+pl Nie może zostać ukończone: nie występuje w grze
 # acti_lose_quest
 en We lost this quest here
 de Hier haben wir die Quest verloren
+pl Utraciliśmy zadanie tutaj
 # acti_lose_quest_no
 en Cannot be lost: is not in play
 de Kann nicht verloren werden da nicht im Spiel
+pl Nie może zostać utracone: nie występuje w grze
 # acti_quest_header
 en Quest: %{name} (%{state})
 de Quest: %{name} (%{state})
+pl Zadanie: %{name} (%{state})
 # acti_hidden_hint
 en (The visibility only affects the todo list)
 de (Die Sichtbarkeit wirkt sich nur auf die "Zu Erledigen"-Liste aus)
+pl (Widoczność wpływa wyłącznie na listę "Do zrobienia")
 
 // edit
 # edit_hint
 en "You should only use this page to fix errors, usually just use Quests."
 de "Diese Seite sollte nur zur Fehlerbehebung genutzt werden, normalerweise nutze einfach Quests."
+pl "Powinieneś używać tej strony tylko do poprawiania błędów. W innym przypadku użyj zakładki Zadania."
 
 // edit/quest
 # ed_qu_hint
 en The changes are only saved when the save button is used.
 de Die Änderungen werden nur beim nutzen des Speichern Buttons gespeichert.
+pl Zmiany zapiszą się dopiero po naciśnięciu przycisku Zapisz.
 # ed_qu_remove
 en REMOVE!
 de ENTFERNEN!
+pl USUŃ!
 # ed_qu_prerequisite
 en Prerequisite: %{name}
 de Vorraussetzung: %{name}
+pl Wymagania: %{name}
 # ed_qu_quest_vis_header
 en Quest:
 de Quest:
+pl Zadanie:
 # ed_qu_save
 en Save
 de Speichern
+pl Zapisz
 
 // settings
 # sett_light_mode
 en Light Mode
 de heller Modue
+pl Tryb jasny
 # sett_dark_mode
 en Dark Mode
 de dunkler Modus
+pl Tryb ciemny
 # sett_lang_game
 en Language of the game
 de Sprache des Spiels
+pl Język gry
 # sett_lang_msg
 en Language of the website
 de Sprache der Website
+pl Język strony
 # sett_data
 en Data
 de Daten
+pl Dane
 # sett_data_load
 en Load
 de Laden
+pl Wczytaj
 # sett_data_save
 en Save
 de Speichern
+pl Zapisz
 # sett_data_new_campaign
 en New Campaign
 de Neue Kampagne
+pl Nowa kampania
 # sett_data_clear
 en Clear
 de Löschen
+pl Wyczyść
 # sett_model_new_campaign_head
 en New Campaign?
 de Neue Kampagne?
+pl Nowa kampania?
 # sett_model_new_campaign_body
 en This will reset all quests to not found and resets the temporarily hidden data.
 de Hiermit werden alle Quests und temporären versteckten Daten zurückgesetzt.
+pl To ustawi wszystkie zadania jako nieznalezione oraz wyczyści tymczasowo ukryte dane.
 # sett_model_clear_head
 en Clear?
 de Löschen?
+pl Wyczyścić?
 # sett_model_clear_body
 en This will remove all data you entered.
 de Alle eingegeben Daten werden entfernt
+pl To usunie wszystkie wprowadzone dane.
 # sett_translation_incomplete
 en * = Translation is incomplete
 de * = Übersetzung unvollständig
+pl * = Tłumaczenie jest niekompletne
 # sett_translation_help
 en Help translating
 de Übersetzen helfen
+pl Pomoc w tłumaczeniu
 
 // info
 # info_data_head
 en Data
 de Daten
+pl Dane
 # info_data_body
 en The data is stored only in the browser (not the server!). Please use the Save/Load (in Settings) to make sure that your data is not lost. None of the data you enter is sent to any server.
 de Daten werden nur im Browser gespeichert (nicht auf einem Server!). Bitte nutze Speichern/Laden (Einstellungen) um sicher zu gehen, das die Daten nicht verloren gehen. Keine der eingegebenen Daten wird an einen Server gesendet.
+pl Dane zapisywane są jedynie w przeglądarce (nie na serwerze). Użyj funkcji Zapisz/Wczytaj (w Ustawieniach) aby upewnić się, że dane nie przepadną. Żadne dane nie są wysyłane poza przeglądarkę.
 # info_icon_head
 en Icons
 de Icons
+pl Ikony
 # info_icon_active
 en *{icon} - Active quest
 de *{icon} - Aktive Quest
+pl *{icon} - Aktywne zadanie
 # info_icon_keyword
 en *{icon} - Keyword
 de *{icon} - Schlüsselwort
+pl *{icon} - Słowo kluczowe
 # info_icon_gain
 en *{icon} - Gain a quest
 de *{icon} - Quest erhalten
+pl *{icon} - Zdobądź zadanie
 # info_icon_when
 en *{icon} - Requires a quest
 de *{icon} - Quest benötigt
+pl *{icon} - Wymaga zadania
 # info_icon_complete
 en *{icon} - Complete a quest
 de *{icon} - Quest beendet
+pl *{icon} - Ukończ zadanie
 # info_icon_lose
 en *{icon} - Lose a quest
 de *{icon} - Quest verloren
+pl *{icon} - Utrać zadanie
 # info_icon_unless
 en *{icon} - Requires to not have a quest
 de *{icon} - Vorrausetzung: keine Quest
+pl *{icon} - Wymagane brak zadania
 # info_icon_note
 en *{icon} - A note you wrote
 de *{icon} - Eine deiner Notizen
+pl *{icon} - Notatka własna
 # info_link_head
 en Links
 de Links
+pl Odnośniki
 # info_link_rules
 en Rules reference
 de Regel Referenz
+pl Zasady gry (po angielsku)
