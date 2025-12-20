@@ -21,3 +21,7 @@ nav.navbar .navbar-nav .nav-pills .nav-link.active {
 .btn > i {
   margin-right: 4px;
 }
+
+#map_table td button {
+  width: 100%;
+}
